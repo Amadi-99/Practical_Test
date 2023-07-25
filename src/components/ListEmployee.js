@@ -72,7 +72,7 @@ class ListEmployee extends Component {
             <div>
                 <h2 className="text-center">Employees Details</h2>
                 <div className="row center-buttons">
-                    <Link to={`/add-employee/:empNo`} className="btn btn-primary ml-2">
+                    <Link to={`/add-employee/_add`} className="btn btn-primary ml-2">
                         Add Employee
                     </Link>
                     <Link to={`/edit-employee/:empNo`} className="btn btn-primary ml-2">

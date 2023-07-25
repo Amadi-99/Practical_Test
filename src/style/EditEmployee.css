@@ -1,0 +1,39 @@
+
+.container {
+    margin-top: 20px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="datetime-local"],
+  input[type="number"],
+  input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="checkbox"] {
+    width: auto;
+    margin-top: 5px;
+  }
+  
+  .btn-success,
+  .btn-danger {
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+  

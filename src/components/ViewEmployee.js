@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import EmployeeService from '../services/EmployeeService';
+import '../style/ViewEmployee.css';
 
 class ViewEmployee extends Component {
     constructor(props) {
